@@ -5,8 +5,41 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.imagisekai</groupId>
-    <artifactId>SimpleEvent</artifactId>
+    <artifactId>simpleevent</artifactId>
     <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <name>SimpleEvent</name>
     <description>A simple event system that try to resemble C# event</description>
-
+    <url>https://github.com/quangaming2929/SimpleEvent</url>
+    <packaging>jar</packaging>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <properties>
+        <java.version>8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+    <developers>
+        <developer>
+            <name>Tachibana Yui</name>
+            <email>quan.tachibanayui@outlook.com</email>
+            <url>https://github.com/quangaming2929</url>
+        </developer>
+    </developers>
 </project>
